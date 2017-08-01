@@ -1,0 +1,95 @@
+body, html
+{
+	height:100%;
+	font-size: 0;
+	overflow: hidden;
+}
+body, .slide{
+	margin: 0%;
+	padding: 0%;
+}
+a{
+	cursor: pointer;
+}
+.slide{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+	position: relative;
+}
+.background{
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0%;
+	top:0%;
+}
+.button{
+	z-index: 10;
+	position:absolute;
+	width: 5%;
+	min-width: 50px;
+	display:inline-block;
+	left:47.5%;
+}
+.down{
+	bottom: 1%;
+}
+.up{
+	top: 1%;
+}
+.contactIcon{
+	position: absolute;
+	width: 5%;
+	min-width: 50px;
+}
+.contact{
+	text-decoration: none;
+	font: 20pt 'Product Sans', Arial, sans-serif;
+	color: white;
+}
+.hoverText{
+	position: absolute;
+}
+.slideLbl{
+	position: absolute;
+	font: 20pt 'Product Sans', Arial, sans-serif;
+	color: white;
+	bottom: 5%;
+	right: 3%;
+}
+#introBack{
+	z-index:-100;
+}
+#bodyBack{
+	z-index:-101;
+}
+#contactBack{
+	z-index:-102;
+}
+#gmail{
+	left:3%;
+	top: 5%;
+}
+#facebook{
+	left:3%;
+	top: 30%;
+}
+#github{
+	left:3%;
+	top: 55%;
+}
+
+#gmailtxt{
+	left:10%;
+	top: 10%;
+}
+#fbtxt{
+	left:10%;
+	top: 35%;
+}
+#githubtxt{
+	left:10%;
+	top: 60%;
+}
