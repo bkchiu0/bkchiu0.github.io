@@ -20,7 +20,7 @@ $(function(){
 		$("#bodyBack").animate({opacity: '0.0'}, 500);
 		$("#githubtxt").delay(500).show(500);
 		$("#gmailtxt").delay(500).show(500);
-		$("#fbtxt").delay(500).show(500);
+		$("#lktxt").delay(500).show(500);
 	});
 	$("#contactUp").click(function(){
 		$("#intro").delay(250).animate({top: '-100%'}, 500);
@@ -30,6 +30,6 @@ $(function(){
 		$("#bodyBack").delay(250).animate({opacity: '1.0'}, 500);
 		$("#githubtxt").hide(250);
 		$("#gmailtxt").hide(250);
-		$("#fbtxt").hide(250);
+		$("#lktxt").hide(250);
 	});
 });

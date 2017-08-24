@@ -59,6 +59,27 @@ a{
 	bottom: 5%;
 	right: 3%;
 }
+.slideText{
+	position: relative;
+	margin: auto;
+	border: 1px solid red;
+	width:90%;
+	height:90%;
+	text-align: center;
+}
+#introName{
+	position:relative;
+	font: 72pt 'Product Sans', Arial, sans-serif;
+	color: white;
+	top:20%;
+	
+}
+#introSub{
+	position:relative;
+	font: 20pt 'Product Sans', Arial, sans-serif;
+	color: white;
+	top:40%;
+}
 #introBack{
 	z-index:-100;
 }
@@ -69,10 +90,11 @@ a{
 	z-index:-102;
 }
 #gmail{
+	cursor: default;
 	left:3%;
 	top: 5%;
 }
-#facebook{
+#linkedin{
 	left:3%;
 	top: 30%;
 }
@@ -82,10 +104,11 @@ a{
 }
 
 #gmailtxt{
+	cursor: text;
 	left:10%;
 	top: 10%;
 }
-#fbtxt{
+#lktxt{
 	left:10%;
 	top: 35%;
 }
