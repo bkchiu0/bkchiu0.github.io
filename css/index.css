@@ -1,0 +1,26 @@
+body, html{
+	height: 100%;
+	font-size: 0;
+}
+.subsld{
+	padding-top:5%;
+	padding-bottom:5%;
+	height: 90%;
+}
+.sl{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+#introCard{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+#photobooth{
+	padding-top:1%;
+}
+#photobooth img{
+	width:100%;
+}
