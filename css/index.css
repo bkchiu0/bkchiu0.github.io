@@ -14,8 +14,11 @@ body, html{
 	position: relative;
 	/*border: 1px solid red;*/
 }
+.container{
+	position:relative;
+}
 .scrollable{
-	overflow-y: auto;
+	overflow: auto;
 }
 .carousel-item{
 	padding:0%;
@@ -32,4 +35,7 @@ body, html{
 #photobooth img{
 	width:100%;
 	height:100%;
+}
+::-webkit-scrollbar { /* for Mac OS X support */
+	width: 0;
 }
