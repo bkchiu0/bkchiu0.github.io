@@ -14,7 +14,7 @@ body, html{
 	position: relative;
 	/*border: 1px solid red;*/
 }
-.container{
+.scrollable{
 	overflow-y: auto;
 }
 .carousel-item{
