@@ -31,4 +31,5 @@ body, html{
 }
 #photobooth img{
 	width:100%;
-
+	height:100%;
+}

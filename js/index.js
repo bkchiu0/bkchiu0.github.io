@@ -5,6 +5,7 @@ for(i=0; i<elems.length; i++){
 	instance.options.scrollOffset=65;
 }
 var instance = M.Carousel.init({
-    fullWidth: true,
+    fullWidth: false,
     indicators: true
 });
+
