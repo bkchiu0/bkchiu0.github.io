@@ -14,13 +14,20 @@ body, html{
 	position: relative;
 	/*border: 1px solid red;*/
 }
+.container{
+	overflow-y: auto;
+}
+.carousel-item{
+	padding:0%;
+	margin:none;
+}
 #introCard{
 	padding-top:10%;
 	padding-bottom:10%;
 }
 #photobooth{
+	overflow-y: hidden;
 	padding-top:1%;
 }
 #photobooth img{
 	width:100%;
-}
