@@ -24,6 +24,9 @@ body, html{
 	padding:0%;
 	margin:none;
 }
+.auto-overflow{
+	overflow: auto;
+}
 .light-text{
 	color: white !important;
 }
