@@ -1,44 +1,60 @@
-body, html{
-	height: 100%;
-	font-size: 0;
+body,
+html {
+  height: 100%;
+  font-size: 0;
 }
-.subsld{
-	padding-top:5%;
-	padding-bottom:5%;
-	height: 90%;
+.subsld {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 90%;
 }
-.sl{
-	display: block;
-	min-width: 100%;
-	min-height: 100%;
-	position: relative;
-	/*border: 1px solid red;*/
+.sl {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  /*border: 1px solid red;*/
 }
-.container{
-	position:relative;
+.container {
+  position: relative;
 }
-.scrollable{
-	overflow: auto;
+.scrollable {
+  overflow: auto;
 }
-.carousel-item{
-	padding:0%;
-	margin:none;
+.carousel-item {
+  padding: 0%;
+  margin: none;
 }
-.auto-overflow{
-	overflow: auto;
+.auto-overflow {
+  overflow: auto;
 }
-.light-text{
-	color: white !important;
+.light-text {
+  color: white !important;
 }
-#introCard{
-	padding-top:10%;
-	padding-bottom:10%;
+.navy-blue {
+  background-color: #3a4664 !important;
 }
-#photobooth{
-	overflow-y: hidden;
-	padding-top:1%;
+.beige {
+  background-color: #ffdbdc !important;
 }
-#photobooth img{
-	width:100%;
-	height:100%;
+.beige-warm {
+  background-color: #d4babb !important;
+}
+.pink-custom {
+  background-color: #eaa0a2 !important;
+}
+.pink-warm {
+  background-color: #f5aeb0 !important;
+}
+#introCard {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#photobooth {
+  overflow-y: hidden;
+  padding-top: 1%;
+}
+#photobooth img {
+  width: 100%;
+  height: 100%;
 }
